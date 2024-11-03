@@ -1,0 +1,72 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Make it responsive */
+  max-width: 500px; /* Optional: Set a maximum width */
+}
+
+.main-image img {
+  width: 100%; /* Responsive width */
+  height: 100%; /* Adjust the height as needed */
+  max-height: 550px; /* Optional: Set a maximum height */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 15px;
+  justify-content: center; 
+  margin-bottom: 20px;
+}
+
+.thumbnail-item img {
+  width: 100px; 
+  height: 120px; 
+  object-fit: cover; 
+  opacity: 0.6;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: opacity 0.3s ease;
+}
+
+.thumbnail-item img.active,
+.thumbnail-item img:hover {
+  opacity: 1;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  border: none;
+  z-index: 1;
+}
+
+.prev {
+  left: 15%;
+}
+
+.next {
+  right: 15%;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

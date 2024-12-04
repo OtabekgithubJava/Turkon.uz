@@ -24,17 +24,17 @@ export const categories = [
 export const courses = [
     {
         id         : '694e4e5f-f25f-470b-bd0e-26b1d4f64028',
-        title      : 'Basics of Angular',
+        title      : 'Karimova Shoiraxon',
         slug       : 'basics-of-angular',
-        description: 'Introductory course for Angular and framework basics',
+        description: 'Turkon jurnali asoschisi',
         category   : 'web',
-        duration   : 30,
+        duration   : 15,
         totalSteps : 11,
         updatedAt  : 'Jun 28, 2021',
         featured   : true,
         progress   : {
             currentStep: 3,
-            completed  : 2,
+            completed  : 1,
         },
     },
     {
@@ -294,361 +294,73 @@ export const courses = [
     },
 ];
 export const demoCourseContent = `
-<p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam lab et fugiat id magnam minus nemo quam
-    voluptatem. Culpa deleniti explica nisi quod soluta.
-</p>
-<p>
-    Alias animi labque, deserunt distinctio eum excepturi fuga iure labore magni molestias mollitia natus, officia pofro
-    quis sunt temporibus veritatis voluptatem, voluptatum. Aut blanditiis esse et illum maxim, obcaecati possimus
-    voluptate! Accusamus <em>adipisci</em> amet aperiam, assumenda consequuntur fugiat inventore iusto magnam molestias
-    natus necessitatibus, nulla pariatur.
-</p>
-<p>
-    Amet distinctio enim itaque minima minus nesciunt recusandae soluta voluptatibus:
-</p>
-<blockquote>
-    <p>
-        Ad aliquid amet asperiores lab distinctio doloremque <code>eaque</code>, exercitationem explicabo, minus mollitia
-        natus necessitatibus odio omnis pofro rem.
-    </p>
-</blockquote>
-<p>
-    Alias architecto asperiores, dignissimos illum ipsam ipsum itaque, natus necessitatibus officiis, perferendis quae
-    sed ullam veniam vitae voluptas! Magni, nisi, quis! A <code>accusamus</code> animi commodi, consectetur distinctio
-    eaque, eos excepturi illum laboriosam maiores nam natus nulla officiis perspiciatis rem <em>reprehenderit</em> sed
-    tenetur veritatis.
-</p>
-<p>
-    Consectetur <code>dicta enim</code> error eveniet expedita, facere in itaque labore <em>natus</em> quasi? Ad consectetur
-    eligendi facilis magni quae quis, quo temporibus voluptas voluptate voluptatem!
-</p>
-<p>
-    Adipisci alias animi <code>debitis</code> eos et impedit maiores, modi nam nobis officia optio perspiciatis, rerum.
-    Accusantium esse nostrum odit quis quo:
-</p>
-<pre><code>h1 a {{'{'}}
-    display: block;
-    width: 300px;
-    height: 80px;
-{{'}'}}</code></pre>
-<p>
-    Accusantium aut autem, lab deleniti eaque fugiat fugit id ipsa iste molestiae,
-    <a>necessitatibus nemo quasi</a>
-    .
-</p>
-<hr>
-<h2>
-    Accusantium aspernatur autem enim
-</h2>
-<p>
-    Blanditiis, fugit voluptate! Assumenda blanditiis consectetur, labque cupiditate ducimus eaque earum, fugiat illum
-    ipsa, necessitatibus omnis quaerat reiciendis totam. Architecto, <strong>facere</strong> illum molestiae nihil nulla
-    quibusdam quidem vel! Atque <em>blanditiis deserunt</em>.
-</p>
-<p>
-    Debitis deserunt doloremque labore laboriosam magni minus odit:
-</p>
-<ol>
-    <li>Asperiores dicta esse maiores nobis officiis.</li>
-    <li>Accusamus aliquid debitis dolore illo ipsam molettiae possimus.</li>
-    <li>Magnam mollitia pariatur perspiciatis quasi quidem tenetur voluptatem! Adipisci aspernatur assumenda dicta.</li>
-</ol>
-<p>
-    Animi fugit incidunt iure magni maiores molestias.
-</p>
-<h3>
-    Consequatur iusto soluta
-</h3>
-<p>
-    Aliquid asperiores corporis — deserunt dolorum ducimus eius eligendi explicabo quaerat suscipit voluptas.
-</p>
-<p>
-    Deserunt dolor eos et illum laborum magni molestiae mollitia:
-</p>
-<blockquote>
-    <p>Autem beatae consectetur consequatur, facere, facilis fugiat id illo, impedit numquam optio quis sunt ducimus illo.</p>
-</blockquote>
-<p>
-    Adipisci consequuntur doloribus facere in ipsam maxime molestias pofro quam:
-</p>
-<figure>
-    <img
-        src="assets/images/pages/help-center/image-1.jpg"
-        alt="">
-    <figcaption>
-        Accusamus blanditiis labque delectus esse et eum excepturi, impedit ipsam iste maiores minima mollitia, nihil obcaecati
-        placeat quaerat qui quidem sint unde!
-    </figcaption>
-</figure>
-<p>
-    A beatae lab deleniti explicabo id inventore magni nisi omnis placeat praesentium quibusdam:
-</p>
-<ul>
-    <li>Dolorem eaque laboriosam omnis praesentium.</li>
-    <li>Atque debitis delectus distinctio doloremque.</li>
-    <li>Fuga illo impedit minima mollitia neque obcaecati.</li>
-</ul>
-<p>
-    Consequ eius eum excepturi explicabo.
-</p>
-<h2>
-    Adipisicing elit atque impedit?
-</h2>
-<h3>
-    Atque distinctio doloremque ea qui quo, repellendus.
-</h3>
-<p>
-    Delectus deserunt explicabo facilis numquam quasi! Laboriosam, magni, quisquam. Aut, blanditiis commodi distinctio, facere fuga
-    hic itaque iure labore laborum maxime nemo neque provident quos recusandae sequi veritatis illum inventore iure qui rerum sapiente.
-</p>
-<h3>
-    Accusamus iusto sint aperiam consectetur …
-</h3>
-<p>
-    Aliquid assumenda ipsa nam odit pofro quaerat, quasi recusandae sint! Aut, esse explicabo facilis fugit illum iure magni
-    necessitatibus odio quas.
-</p>
-<ul>
-    <li>
-        <p><strong>Dolore natus placeat rem atque dignissimos laboriosam.</strong></p>
-        <p>
-            Amet repudiandae voluptates architecto dignissimos repellendus voluptas dignissimos eveniet itaque maiores natus.
-        </p>
-        <p>
-            Accusamus aliquam debitis delectus dolorem ducimus enim eos, exercitationem fugiat id iusto nostrum quae quos
-            recusandae reiciendis rerum sequi temporibus veniam vero? Accusantium culpa, cupiditate ducimus eveniet id maiores modi
-            mollitia nisi aliquid dolorum ducimus et illo in.
-        </p>
-    </li>
-    <li>
-        <p><strong>Ab amet deleniti dolor, et hic optio placeat.</strong></p>
-        <p>
-            Accusantium ad alias beatae, consequatur consequuntur eos error eveniet expedita fuga laborum libero maxime nulla pofro
-            praesentium rem rerum saepe soluta ullam vero, voluptas? Architecto at debitis, doloribus harum iure libero natus odio
-            optio soluta veritatis voluptate.
-        </p>
-    </li>
-    <li>
-        <p><strong>At aut consectetur nam necessitatibus neque nesciunt.</strong></p>
-        <p>
-            Aut dignissimos labore nobis nostrum optio! Dolor id minima velit voluptatibus. Aut consequuntur eum exercitationem
-            fuga, harum id impedit molestiae natus neque numquam perspiciatis quam rem voluptatum.
-        </p>
-    </li>
-</ul>
-<p>
-    Animi aperiam autem labque dolore enim ex expedita harum hic id impedit ipsa laborum modi mollitia non perspiciatis quae ratione.
-</p>
-<h2>
-    Alias eos excepturi facilis fugit.
-</h2>
-<p>
-    Alias asperiores, aspernatur corporis
-    <a>delectus</a>
-    est
-    <a>facilis</a>
-    inventore dolore
-    ipsa nobis nostrum officia quia, veritatis vero! At dolore est nesciunt numquam quam. Ab animi <em>architecto</em> aut, dignissimos
-    eos est eum explicabo.
-</p>
-<p>
-    Adipisci autem consequuntur <code>labque cupiditate</code> dolor ducimus fuga neque nesciunt:
-</p>
-<pre><code>module.exports = {{'{'}}
-    purge: [],
-    theme: {{'{'}}
-        extend: {{'{}'}},
-    },
-    variants: {{'{}'}},
-    plugins: [],
-{{'}'}}</code></pre>
-<p>
-    Aliquid aspernatur eius fugit hic iusto.
-</p>
-<h3>
-    Dolorum ducimus expedita?
-</h3>
-<p>
-    Culpa debitis explicabo maxime minus quaerat reprehenderit temporibus! Asperiores, cupiditate ducimus esse est expedita fuga hic
-    ipsam necessitatibus placeat possimus? Amet animi aut consequuntur earum eveniet.
-</p>
-<ol>
-    <li>
-        <strong>Aspernatur at beatae corporis debitis.</strong>
-        <ul>
-            <li>
-                Aperiam assumenda commodi lab dicta eius, “fugit ipsam“ itaque iure molestiae nihil numquam, officia omnis quia
-                repellendus sapiente sed.
-            </li>
-            <li>
-                Nulla odio quod saepe accusantium, adipisci autem blanditiis lab doloribus.
-            </li>
-            <li>
-                Explicabo facilis iusto molestiae nisi nostrum obcaecati officia.
-            </li>
-        </ul>
-    </li>
-    <li>
-        <strong>Nobis odio officiis optio quae quis quisquam quos rem.</strong>
-        <ul>
-            <li>Modi pariatur quod totam. Deserunt doloribus eveniet, expedita.</li>
-            <li>Ad beatae dicta et fugit libero optio quaerat rem repellendus./</li>
-            <li>Architecto atque consequuntur corporis id iste magni.</li>
-        </ul>
-    </li>
-    <li>
-        <strong>Deserunt non placeat unde veniam veritatis? Odio quod.</strong>
-        <ul>
-            <li>Inventore iure magni quod repellendus tempora. Magnam neque, quia. Adipisci amet.</li>
-            <li>Consectetur adipisicing elit.</li>
-            <li>labque eum expedita illo inventore iusto laboriosam nesciunt non, odio provident.</li>
-        </ul>
-    </li>
-</ol>
-<p>
-    A aliquam architecto consequatur labque dicta doloremque <code>&lt;li&gt;</code> doloribus, ducimus earum, est <code>&lt;p&gt;</code>
-    eveniet explicabo fuga fugit ipsum minima minus molestias nihil nisi non qui sunt vel voluptatibus? A dolorum illum nihil quidem.
-</p>
-<ul>
-    <li>
-        <p>
-            <strong>Laboriosam nesciunt obcaecati optio qui.</strong>
-        </p>
-        <p>
-            Doloremque magni molestias reprehenderit.
-        </p>
-        <ul>
-            <li>Accusamus aperiam blanditiis <code>&lt;p&gt;</code> commodi</li>
-            <li>Dolorum ea explicabo fugiat in ipsum</li>
-        </ul>
-    </li>
-    <li>
-        <p>
-            <strong>Commodi dolor dolorem dolores eum expedita libero.</strong>
-        </p>
-        <p>
-            Accusamus alias consectetur dolores et, excepturi fuga iusto possimus.
-        </p>
-        <ul>
-            <li>
-                <p>
-                    Accusantium ad alias atque aut autem consequuntur deserunt dignissimos eaque iure <code>&lt;p&gt;</code> maxime.
-                </p>
-                <p>
-                    Dolorum in nisi numquam omnis quam sapiente sit vero.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Adipisci lab in nisi odit soluta sunt vitae commodi excepturi.
-                </p>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p>
-            Assumenda deserunt distinctio dolor iste mollitia nihil non?
-        </p>
-    </li>
-</ul>
-<p>
-    Consectetur adipisicing elit dicta dolor iste.
-</p>
-<h2>
-    Consectetur ea natus officia omnis reprehenderit.
-</h2>
-<p>
-    Distinctio impedit quaerat sed! Accusamus
-    <a>aliquam aspernatur enim expedita explicabo</a>
-    . Libero molestiae
-    odio quasi unde ut? Ab exercitationem id numquam odio quisquam!
-</p>
-<p>
-    Explicabo facilis nemo quidem natus tempore:
-</p>
-<table class="table table-striped table-bordered">
-    <thead>
-        <tr>
-            <th>Wrestler</th>
-            <th>Origin</th>
-            <th>Finisher</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Bret “The Hitman” Hart</td>
-            <td>Calgary, AB</td>
-            <td>Sharpshooter</td>
-        </tr>
-        <tr>
-            <td>Stone Cold Steve Austin</td>
-            <td>Austin, TX</td>
-            <td>Stone Cold Stunner</td>
-        </tr>
-        <tr>
-            <td>Randy Savage</td>
-            <td>Sarasota, FL</td>
-            <td>Elbow Drop</td>
-        </tr>
-        <tr>
-            <td>Vader</td>
-            <td>Boulder, CO</td>
-            <td>Vader Bomb</td>
-        </tr>
-        <tr>
-            <td>Razor Ramon</td>
-            <td>Chuluota, FL</td>
-            <td>Razor’s Edge</td>
-        </tr>
-    </tbody>
-</table>
-<p>
-    A aliquid autem lab doloremque, ea earum eum fuga fugit illo ipsa minus natus nisi <code>&lt;span&gt;</code> obcaecati pariatur
-    perferendis pofro <code>suscipit tempore</code>.
-</p>
-<h3>
-    Ad alias atque culpa <code>illum</code> earum optio
-</h3>
-<p>
-    Architecto consequatur eveniet illo in iure laborum minus omnis quibusdam sequi temporibus? Ab aliquid <em>“atque dolores molestiae
-    nemo perferendis”</em> reprehenderit saepe.
-</p>
-<p>
-    Accusantium aliquid eligendi est fuga natus, <code>quos</code> vel? Adipisci aperiam asperiores aspernatur consectetur cupiditate
-    <a><code>@distinctio/doloribus</code></a>
-    et exercitationem expedita, facere facilis illum, impedit inventore
-    ipsa iure iusto magnam, magni minus nesciunt non officia possimus quod reiciendis.
-</p>
-<h4>
-    Cupiditate explicabo <code>hic</code> maiores
-</h4>
-<p>
-    Aliquam amet consequuntur distinctio <code>ea</code> est <code>excepturi</code> facere illum maiores nisi nobis non odit officiis
-    quisquam, similique tempora temporibus, tenetur ullam <code>voluptates</code> adipisci aperiam deleniti <code>doloremque</code>
-    ducimus <code>eos</code>.
-</p>
-<p>
-    Ducimus qui quo tempora. lab enim explicabo <code>hic</code> inventore qui soluta voluptates voluptatum? Asperiores consectetur
-    delectus dolorem fugiat ipsa pariatur, quas <code>quos</code> repellendus <em>repudiandae</em> sunt aut blanditiis.
-</p>
-<h3>
-    Asperiores aspernatur autem error praesentium quidem.
-</h3>
-<h4>
-    Ad blanditiis commodi, doloribus id iste <code>repudiandae</code> vero vitae.
-</h4>
-<p>
-    Atque consectetur lab debitis enim est et, facere fugit impedit, possimus quaerat quibusdam.
-</p>
-<p>
-    Dolorem nihil placeat quibusdam veniam? Amet architecto at consequatur eligendi eveniet excepturi hic illo impedit in iste magni maxime
-    modi nisi nulla odio placeat quidem, quos rem repellat similique suscipit voluptate voluptates nobis omnis quo repellendus.
-</p>
-<p>
-    Assumenda, eum, minima! Autem consectetur fugiat iste sit! Nobis omnis quo repellendus.
-</p>
+<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+  <h1>👩‍🏫 Karimova Shoiraxon Sobitjon qizi</h1>
+  <p>
+    📌 <strong>Shoiraxon Karimova</strong> — yoshlar va xotin-qizlarni qo‘llab-quvvatlash, ularga zamonaviy bilim va 
+    kasb-hunar o‘rgatish sohasida katta hissa qo‘shayotgan fidoyi tadbirkor va ijtimoiy faol shaxs.
+  </p>
+
+    <!-- Local Video Embed -->
+    <div style="text-align: center; margin: 30px 0;">
+        <video width="100%" height="auto" controls>
+        <source src="assets/journal_video.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+    </div>
+
+  <h2>🌟 Faoliyat yo‘nalishlari</h2>
+  <ul>
+    <li>“SHOXON SHOIRABEGIM” MCHJ rahbari</li>
+    <li>“Turkon” jurnali asoschisi</li>
+    <li>“IT-PARK HUB” o‘quv markazi tashkilotchisi</li>
+  </ul>
+
+  <p>
+    Uning rahbarligida “IT-PARK HUB” markazi <strong>18 yo‘nalishda taʼlim</strong> beradi va yoshlarni 
+    axborot texnologiyalari, xorijiy tillar hamda kasb-hunarga yo‘naltiradi.
+  </p>
+
+  <h2>👗 Tikuvchilik va ishlab chiqarish</h2>
+  <p>
+    “SHOXON SHOIRABEGIM” MCHJ doirasida ayol-qizlar va bolalar uchun 
+    <strong>milliy hamda zamonaviy kiyimlar</strong> ishlab chiqarish yo‘lga qo‘yilgan. Bundan tashqari, 
+    Shoiraxon xonim xotin-qizlarni <strong>tikuvchilikka o‘rgatib, ish bilan taʼminlash</strong>da ham ulkan hissa qo‘shmoqda.
+  </p>
+
+  <h2>📚 Mentorlik va ijtimoiy loyihalar</h2>
+  <p>
+    Shoiraxon Karimova USAID‘ning “Yoshlarni ishga joylashish ko‘nikmalarini shakllantirish” 
+    (<strong>YES Activity</strong>) dasturi mentori sifatida faoliyat yuritadi. U yosh avlodga 
+    <strong>moliyaviy savodxonlik</strong> va tadbirkorlik bo‘yicha yo‘nalishlar ko‘rsatib, jamiyatga foyda keltirmoqda.
+  </p>
+
+  <h2>🏅 Mukofotlar</h2>
+  <p>
+    Shoiraxon xonimning mehnati eʼtirof etilgan — u <strong>2021 yilda “Kelajak bunyodkori”</strong> medali bilan mukofotlangan.
+  </p>
+
+  <h2>💡 “Turkon” jurnali</h2>
+  <p>
+    Biz “Turkon” jurnali jamoasi sifatida Shoiraxon Karimovaning ijtimoiy faoliyati va jamiyat taraqqiyotiga qo‘shgan 
+    hissasini chuqur qadrlaymiz.
+  </p>
+
+  <p><strong>📎 Batafsil maʼlumotlar:</strong></p>
+  <p>
+    “Turkon” va Shoiraxon Karimova haqida ko‘proq bilib olish uchun sahifamizni kuzatib boring!
+  </p>
+
+  <p style="margin-top: 20px;">
+    <strong>#ShoiraxonKarimova #TurkonJurnali #YESActivity #ITPARKHUB #SHOXON_SHOIRABEGIM</strong><br>
+    <strong>#YoshlarQo‘llabQuvvatlanadi #XotinQizlarTaraqqiyoti</strong>
+  </p>
+
 `;
+
+
+
 export const demoCourseSteps = [
     {
         order   : 0,

@@ -15,12 +15,12 @@
         </svg>
         <!-- @formatter:on -->
         <div class="z-10 relative flex flex-col items-center">
-            <h2 class="text-xl font-semibold">FUSE ACADEMY</h2>
+            <h2 class="text-xl font-semibold">Turkon Jurnali</h2>
             <div class="mt-1 text-4xl sm:text-7xl font-extrabold tracking-tight leading-tight text-center">
-                What do you want to learn today?
+                O'zbekistondagi "Ladies Business" jurnallari haqida o'rganing!
             </div>
             <div class="max-w-2xl mt-6 sm:text-2xl text-center tracking-tight text-secondary">
-                Our courses will step you through the process of a building small applications, or adding new features to existing applications.
+                Jurnallarimiz Turkon.uz'dagi tadbirkorlarimiz va ularni tashabbuslari haqida to'liq ma'lumot beradi
             </div>
         </div>
     </div>
@@ -52,7 +52,7 @@
                         [svgIcon]="'heroicons_solid:magnifying-glass'"></mat-icon>
                     <input
                         (input)="filterByQuery(query.value)"
-                        placeholder="Search by title or description"
+                        placeholder="Qidiruv bo'limi..."
                         matInput
                         #query>
                 </mat-form-field>
@@ -157,11 +157,11 @@
                                             <ng-container *ngIf="course.progress.currentStep === 0">
                                                 <!-- Never completed -->
                                                 <ng-container *ngIf="course.progress.completed === 0">
-                                                    <span>Start</span>
+                                                    <span>Continue</span>
                                                 </ng-container>
                                                 <!-- Completed before -->
                                                 <ng-container *ngIf="course.progress.completed > 0">
-                                                    <span>Start again</span>
+                                                    <span>Continue</span>
                                                 </ng-container>
                                             </ng-container>
 

@@ -16,12 +16,50 @@
         </div>
         
         
-        <button class="prev" (click)="prevSlide()">&#10094;</button>
-        <button class="next" (click)="nextSlide()">&#10095;</button>
+
+    <!-- Previous Button -->
+    <button
+        class="absolute left-10 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center transition-transform transform hover:scale-110 focus:outline-none shadow-lg z-10"
+        (click)="prevSlide()"
+        >
+        <span class="text-3xl font-bold">&#10094;</span>
+    </button>
+
+    <!-- Next Button -->
+    <button
+        class="absolute right-10 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center transition-transform transform hover:scale-110 focus:outline-none shadow-lg z-10"
+        (click)="nextSlide()"
+        >
+        <span class="text-3xl font-bold">&#10095;</span>
+    </button>
+
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-icons">
+                <a href="https://instagram.com/turkonuz" target="_blank" class="footer-icon instagram" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://instagram.com/turkonuz" target="_blank" class="footer-icon youtube" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://t.me/turkonuz" target="_blank" class="footer-icon telegram" aria-label="Telegram">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="footer-icon linkedin" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+
+
     </div>
 </div>
 
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 
 <style>
@@ -38,7 +76,7 @@
         justify-content: center;
         align-items: center;
         width: 80%; 
-        max-width: 500px; 
+        max-width: 400px; 
     }
     
     .main-image img {
@@ -77,6 +115,8 @@
     .thumbnail-item img:hover {
         opacity: 1;
     }
+
+    
     
     .prev,
     .next {
@@ -105,6 +145,104 @@
         background-color: rgba(0, 0, 0, 0.8);
     }
     
+
+    /* Footer Container */
+    .footer-container {
+        padding: 20px 0;
+        text-align: center;
+        width: 100%; /* Full screen width */
+    }
+
+    /* Footer Icons */
+    .footer-icons {
+        display: flex;
+        justify-content: space-around; /* Space between icons */
+        align-items: center;
+        gap: 50px; /* More distance between icons */
+    }
+
+    .footer-icon {
+        font-size: 3rem; /* Icon size */
+        color: #ffffff; /* Default white */
+        text-decoration: none;
+        position: relative;
+    }
+
+    /* Add Glow Effect */
+    .footer-icon::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.2); /* Glow background */
+        filter: blur(15px);
+        z-index: -1; /* Place behind the icon */
+        animation: glow 1.5s infinite alternate ease-in-out;
+    }
+
+    /* Brand Colors */
+    .footer-icon.instagram {
+        color: #e1306c; /* Instagram pink */
+    }
+
+    .footer-icon.instagram::before {
+        background: rgba(225, 48, 108, 0.3);
+    }
+
+    .footer-icon.youtube {
+        color: #ff0000; /* YouTube red */
+    }
+
+    .footer-icon.youtube::before {
+        background: rgba(255, 0, 0, 0.3);
+    }
+
+    .footer-icon.telegram {
+        color: #0088cc; /* Telegram blue */
+    }
+
+    .footer-icon.telegram::before {
+        background: rgba(0, 136, 204, 0.3);
+    }
+
+    .footer-icon.linkedin {
+        color: #0077b5; /* LinkedIn blue */
+    }
+
+    .footer-icon.linkedin::before {
+        background: rgba(0, 119, 181, 0.3);
+    }
+
+    @keyframes glow {
+        0% {
+            transform: translate(-50%, -50%) scale(0.9);
+            opacity: 0.8;
+        }
+        100% {
+            transform: translate(-50%, -50%) scale(1.1);
+            opacity: 1;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .footer-icons {
+            flex-direction: row;
+            gap: 30px; /* Reduced spacing for smaller screens */
+        }
+
+        .footer-icon {
+            font-size: 2.5rem; /* Adjust icon size for mobile */
+        }
+
+        .footer-icon::before {
+            width: 50px;
+            height: 50px;
+        }
+    }
     
 
 </style>

@@ -7,7 +7,14 @@ export const defaultNavigation: FuseNavigationItem[] = [
         title: 'Home',
         type : 'basic',
         icon : 'heroicons_outline:home',
-        link : '/apps/help-center'
+        link : '/example'
+    },
+    {
+        id : 'Help',
+        title : 'Help',
+        type : 'basic',
+        icon : 'heroicons_outline:window',
+        link: '/apps/help-center'
     },
     {
         id   : 'Business',
@@ -38,7 +45,14 @@ export const compactNavigation: FuseNavigationItem[] = [
         title: 'Home',
         type : 'basic',
         icon : 'heroicons_outline:home',
-        link : '/apps/help-center'
+        link : '/example'
+    },
+    {
+        id : 'Help',
+        title : 'Help',
+        type : 'basic',
+        icon : 'heroicons_outline:window',
+        link: '/apps/help-center'
     },
     {
         id   : 'Business',
@@ -68,7 +82,14 @@ export const futuristicNavigation: FuseNavigationItem[] = [
         title: 'Home',
         type : 'basic',
         icon : 'heroicons_outline:home',
-        link : '/apps/help-center'
+        link : '/example'
+    },
+    {
+        id : 'Help',
+        title : 'Help',
+        type : 'basic',
+        icon : 'heroicons_outline:window',
+        link: '/apps/help-center'
     },
     {
         id   : 'Business',
@@ -98,7 +119,14 @@ export const horizontalNavigation: FuseNavigationItem[] = [
         title: 'Home',
         type : 'basic',
         icon : 'heroicons_outline:home',
-        link : '/apps/help-center'
+        link : '/example'
+    },
+    {
+        id : 'Help',
+        title : 'Help',
+        type : 'basic',
+        icon : 'heroicons_outline:window',
+        link: '/apps/help-center'
     },
     {
         id   : 'Business',

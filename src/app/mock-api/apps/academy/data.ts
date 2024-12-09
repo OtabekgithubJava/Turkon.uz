@@ -39,26 +39,26 @@ export const courses = [
     },
     {
         id         : 'f924007a-2ee9-470b-a316-8d21ed78277f',
-        title      : 'Basics of TypeScript',
+        title      : 'Gulbahor Tojimirzayeva',
         slug       : 'basics-of-typeScript',
-        description: 'Beginner course for Typescript and its basics',
+        description: 'BA Holding direktori',
         category   : 'web',
-        duration   : 60,
+        duration   : 20,
         totalSteps : 11,
         updatedAt  : 'Nov 01, 2021',
         featured   : true,
         progress   : {
             currentStep: 5,
-            completed  : 3,
+            completed  : 2,
         },
     },
     {
         id         : '0c06e980-abb5-4ba7-ab65-99a228cab36b',
-        title      : 'Android N: Quick Settings',
+        title      : 'Mahliyo Tojiyeva',
         slug       : 'android-n-quick-settings',
-        description: 'Step by step guide for Android N: Quick Settings',
+        description: '“Ayol uchun” platformasi asoschisi',
         category   : 'android',
-        duration   : 120,
+        duration   : 10,
         totalSteps : 11,
         updatedAt  : 'May 08, 2021',
         featured   : false,
@@ -293,7 +293,7 @@ export const courses = [
         },
     },
 ];
-export const demoCourseContent = `
+export const demoCourseContent_shoiraxon = `
 <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
   <h1>👩‍🏫 Karimova Shoiraxon Sobitjon qizi</h1>
   <p>
@@ -360,72 +360,181 @@ export const demoCourseContent = `
 `;
 
 
+export const demoCourseContent_gulbahor = `
+<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+  <h1>🌟 Gulbahor Tojimirzayeva: Ilhom manbai va muvaffaqiyat ramzi</h1>
+  <p>
+    📌 <strong>Gulbahor Tojimirzayeva</strong> — BA Holding direktori, xalqaro miqyosda muvaffaqiyatga erishgan yosh tadbirkor. 
+    U <strong>NMZ brendini</strong> asos solib, metallurgiya sohasida yuqori natijalar ko‘rsatdi va davlatimizning iqtisodiy 
+    rivojlanishiga ulkan hissa qo‘shmoqda.
+  </p>
+
+  <div style="text-align: center; margin: 30px 0;">
+        <video width="100%" height="auto" controls>
+        <source src="assets/journal_video2.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+    </div>
+
+  <h2>🔑 Muvaffaqiyat siri</h2>
+  <ul>
+    <li><strong>Tinimsiz mehnat:</strong> O‘z ustida ishlash va harakat qilishni davom ettirish</li>
+    <li><strong>Bilimga intilish:</strong> Taʼlim va yangi bilimlarni o‘zlashtirish</li>
+    <li><strong>Qatʼiyat:</strong> Qiyinchiliklarni sabr bilan yengib o‘tish</li>
+  </ul>
+
+  <h2>🌍 Faoliyat tarixi</h2>
+  <p>
+    Gulbahor xonim ilk biznes qadamlarini maktab davrida boshlagan. U Xitoyda taʼlim olib, sohasida chuqur bilim va tajriba 
+    orttirgan. O‘zbekistonga qaytib, iqtisodiy islohotlar orqali yangi yutuqlarga erishib, yurtimizga foyda keltirmoqda.
+  </p>
+
+  <h2>🌐 Eksport bozoridagi muvaffaqiyat</h2>
+  <p>
+    <strong>BA Holding</strong> tomonidan ishlab chiqarilayotgan metall va plastmassa mahsulotlari MDH bozorlariga 
+    muvaffaqiyatli eksport qilinmoqda. Hozirda kompaniya Yevropa davlatlariga eksportni kengaytirish uchun faol islohotlar 
+    amalga oshirmoqda.
+  </p>
+
+  <h2>🤝 Adolatli rahbar va jamoa uchun imkoniyatlar</h2>
+  <p>
+    Gulbahor Tojimirzayeva xodimlari uchun adolatli rahbar sifatida tanilgan. Uning rahbarligi ostida yil sayin yangi qulayliklar 
+    va qo‘shimcha imkoniyatlar yaratilmoqda. 
+  </p>
+
+  <h2>💬 Ilhom manbai</h2>
+  <p>
+    Gulbahor Tojimirzayevaning hayoti O‘zbek ayolining mehnat, bilim va qatʼiyatga asoslangan yorqin namunasi. 
+    Bu kabi tadbirkorlar mamlakatimizning yorqin kelajagini yaratishda asosiy rol o‘ynaydi.
+  </p>
+
+  <div style="margin-top: 30px; text-align: center;">
+    <strong>📎 #BAHolding #NMZ #YoshTadbirkorlar #O‘zbekistonRivoji</strong><br>
+    <strong>#Metallurgiya #YevropaEksporti #XotinQizlarQobiliyati</strong>
+  </div>
+</div>
+`;
+
+
+export const demoCourseContent_mahliyo = `
+<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+  <h1>✨ Mahliyo Tojiyeva: Ayollar rivoji va imkoniyatlar ilhomchisi</h1>
+  <p>
+    📌 <strong>Mahliyo Tojiyeva</strong> — ayollar rivoji uchun qator loyihalarning muallifi va <strong>“Ayol uchun” platformasi</strong> asoschisi.
+    Biznes rivoji, kasbda yuksalish va yuqori natijalarga erishish yo‘lidagi izlanishlar bilan mashg‘ul tadbirkor.
+  </p>
+
+  <div style="text-align: center; margin: 30px 0;">
+        <video width="100%" height="auto" controls>
+        <source src="assets/journal_video3.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+    </div>
+
+  <h2>🔑 Muvaffaqiyat siri</h2>
+  <ul>
+    <li><strong>Tinimsiz izlanish:</strong> Yangi bilim va g‘oyalarni amaliyotga tadbiq qilish</li>
+    <li><strong>Ishonch:</strong> Ayollarga imkoniyat yaratish orqali ularning iqtidorini ochish</li>
+    <li><strong>Rivojlanishga intilish:</strong> Jamiyatda o‘z o‘rnini topish va unga hissa qo‘shish</li>
+  </ul>
+
+  <h2>🌍 Turkon xalqaro platformasi</h2>
+  <p>
+    <strong>Turkon</strong> — biznesingiz rivoji va kasbda yuksalishingiz uchun keng imkoniyatlar eshigini ochadigan xalqaro platforma. 
+    Ushbu loyiha yordamida tadbirkorlar va o‘z ishining ustalari bir joyda birlashmoqda. Turkon jurnal va onlayn resurslar orqali 
+    sizning faoliyatingizni yoritib, global miqyosda tanitish imkonini beradi.
+  </p>
+
+  <h2>📚 Turkon loyihasining afzalliklari</h2>
+  <ul>
+    <li><strong>O‘z biznesingizni tanitish:</strong> Jurnal, sayt va boshqa platformalarda keng yoritilish</li>
+    <li><strong>Hamkorlik imkoniyatlari:</strong> Xalqaro miqyosdagi mutaxassislar bilan muloqot</li>
+    <li><strong>Yangi cho‘qqilar sari:</strong> Rivojlanish uchun innovatsion yondashuvlar</li>
+  </ul>
+
+  <h2>💬 Chorlov</h2>
+  <p>
+    <strong>Turkon xalqaro platformasi</strong> ayollar va biznes vakillarini birlashishga, rivojlanishga va yangi yutuqlarni zabt etishga chorlaydi. 
+    Bu imkoniyatdan foydalaning va o‘z kelajagingizni bugundan boshlab yarating!
+  </p>
+
+  <div style="margin-top: 30px; text-align: center;">
+    <strong>📎 #Turkon #BiznesRivoji #AyollarQobiliyati</strong><br>
+    <strong>#XalqaroHamkorlik #Yuksalish #AyollarIlhomi</strong>
+  </div>
+</div>
+`;
+
+
+
 
 export const demoCourseSteps = [
     {
         order   : 0,
-        title   : 'Introduction',
-        subtitle: 'Introducing the library and how it works',
-        content : `<h2 class="text-2xl sm:text-3xl">Introduction</h1> ${demoCourseContent}`,
+        title   : 'Journal 1',
+        subtitle: 'Shoiraxon Karimova',
+        content : `<h2 class="text-2xl sm:text-3xl"></h1> ${demoCourseContent_shoiraxon}`,
     },
     {
         order   : 1,
-        title   : 'Get the sample code',
-        subtitle: 'Where to find the sample code and how to access it',
-        content : `<h2 class="text-2xl sm:text-3xl">Get the sample code</h1> ${demoCourseContent}`,
+        title   : 'Journal 2',
+        subtitle: 'Gulbahor Tojimirzayeva',
+        content : `<h2 class="text-2xl sm:text-3xl"></h1> ${demoCourseContent_gulbahor}`,
     },
     {
         order   : 2,
-        title   : 'Create a Firebase project and Set up your app',
-        subtitle: 'How to create a basic Firebase project and how to run it locally',
-        content : `<h2 class="text-2xl sm:text-3xl">Create a Firebase project and Set up your app</h1> ${demoCourseContent}`,
+        title   : 'Journal 3',
+        subtitle: 'Mahliyo Tojiyeva',
+        content : `<h2 class="text-2xl sm:text-3xl"></h1> ${demoCourseContent_mahliyo}`,
     },
     {
         order   : 3,
         title   : 'Install the Firebase Command Line Interface',
         subtitle: 'Setting up the Firebase CLI to access command line tools',
-        content : `<h2 class="text-2xl sm:text-3xl">Install the Firebase Command Line Interface</h1> ${demoCourseContent}`,
+        content : `<h2 class="text-2xl sm:text-3xl">Install the Firebase Command Line Interface</h1> ${demoCourseContent_shoiraxon}`,
     },
     {
         order   : 4,
         title   : 'Deploy and run the web app',
         subtitle: 'How to build, push and run the project remotely',
-        content : `<h2 class="text-2xl sm:text-3xl">Deploy and run the web app</h1> ${demoCourseContent}`,
+        content : `<h2 class="text-2xl sm:text-3xl">Deploy and run the web app</h1> ${demoCourseContent_shoiraxon}`,
     },
     {
         order   : 5,
         title   : 'The Functions Directory',
         subtitle: 'Introducing the Functions and Functions Directory',
-        content : `<h2 class="text-2xl sm:text-3xl">The Functions Directory</h1> ${demoCourseContent}`,
+        content : `<h2 class="text-2xl sm:text-3xl">The Functions Directory</h1> ${demoCourseContent_shoiraxon}`,
     },
     {
         order   : 6,
         title   : 'Import the Cloud Functions and Firebase Admin modules',
         subtitle: 'Create your first Function and run it to administer your app',
-        content : `<h2 class="text-2xl sm:text-3xl">Import the Cloud Functions and Firebase Admin modules</h1> ${demoCourseContent}`,
+        content : `<h2 class="text-2xl sm:text-3xl">Import the Cloud Functions and Firebase Admin modules</h1> ${demoCourseContent_shoiraxon}`,
     },
     {
         order   : 7,
         title   : 'Welcome New Users',
         subtitle: 'How to create a welcome message for the new users',
-        content : `<h2 class="text-2xl sm:text-3xl">Welcome New Users</h1> ${demoCourseContent}`,
+        content : `<h2 class="text-2xl sm:text-3xl">Welcome New Users</h1> ${demoCourseContent_shoiraxon}`,
     },
     {
         order   : 8,
         title   : 'Images moderation',
         subtitle: 'How to moderate images; crop, resize, optimize',
-        content : `<h2 class="text-2xl sm:text-3xl">Images moderation</h1> ${demoCourseContent}`,
+        content : `<h2 class="text-2xl sm:text-3xl">Images moderation</h1> ${demoCourseContent_shoiraxon}`,
     },
     {
         order   : 9,
         title   : 'New Message Notifications',
         subtitle: 'How to create and push a notification to a user',
-        content : `<h2 class="text-2xl sm:text-3xl">New Message Notifications</h1> ${demoCourseContent}`,
+        content : `<h2 class="text-2xl sm:text-3xl">New Message Notifications</h1> ${demoCourseContent_shoiraxon}`,
     },
     {
         order   : 10,
         title   : 'Congratulations!',
         subtitle: 'Nice work, you have created your first application',
-        content : `<h2 class="text-2xl sm:text-3xl">Congratulations!</h1> ${demoCourseContent}`,
+        content : `<h2 class="text-2xl sm:text-3xl">Congratulations!</h1> ${demoCourseContent_shoiraxon}`,
     },
 ];
